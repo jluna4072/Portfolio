@@ -57,8 +57,8 @@ html, body {
     align-items: center;
     gap: 40px;
     max-width: 900px;
-    margin: 0 auto;
-    padding-top: 300px;
+    margin: auto;
+    padding-top: 200px;
 }
 .profile-image {
     width: 350px;
@@ -156,10 +156,51 @@ html, body {
     padding: 20px;
     margin-top: 50px;
   }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px; 
+  }
   
-
-
+  /* Message block centered at the top */
+  .message {
+    text-align: center;
+    margin-bottom: 40px;
+  }
   
-
-
-
+  /* Contact icons aligned horizontally */
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+  }
+  
+  
+  .linkedin-container,
+  .email-container,
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Icon style */
+  .linkedin-container img,
+  .email-container img,
+  .mobile-container img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Text link style */
+  .linkedin-container a,
+  .email-container a,
+  .mobile-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
